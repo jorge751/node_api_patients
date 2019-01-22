@@ -1,0 +1,45 @@
+{
+  "name": "node_api_ippi",
+  "version": "1.0.0",
+  "description": "Hace CRUD para pacientes de IPPI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "comp": "pkg --config package.json server.js -o exe/APIPat",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "colors": "^1.3.3",
+    "express": "4.16.4",
+    "sequelize": "4.42.0",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.9"
+  },
+  "pkg": {
+    "scripts": [
+      "/models/**/*.js"
+    ],
+    "assets": [
+      "/models/**/*.json"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorge751/node_api_patients.git"
+  },
+  "keywords": [
+    "API",
+    "RESTfull",
+    "node.js"
+  ],
+  "author": "Jorge Pereyra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorge751/node_api_patients/issues"
+  },
+  "homepage": "https://github.com/jorge751/node_api_patients#readme"
+}

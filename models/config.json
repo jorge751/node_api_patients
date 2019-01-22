@@ -1,0 +1,14 @@
+﻿{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "./health_dev.s3db"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory"
+  },
+  "production": {
+    "dialect": "sqlite",
+    "storage": "./health.s3db"
+  }
+}
