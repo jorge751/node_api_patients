@@ -1,4 +1,4 @@
-<H1>Api RESTfull for patient registration.</H1>
+<H1>Api RESTful for patient registration.</H1>
 
 <H3>Presentation</H3>
   
