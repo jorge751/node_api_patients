@@ -2,11 +2,15 @@
 
 <H3>Presentation</H3>
   
-  Application that returns RESTful JSON using the least possible resources of node.js. For this we use mainly Express and Body-parser. In the case of body-parser it was necessary to take the body from the raw request. In this way we solve page coding problems since the data is not native UTF-8.
+  Application that returns RESTful JSON using the least possible resources of node.js. For this we use mainly Express and Body-parser. In the case of body-parser it was necessary to take the raw body from request. In this way we solve page coding problems since the data is not native UTF-8.
   It was used as a Sqlite3 database and as an ORM Sequelize to simplify the manipulation of the data.
 The npmjs.com Colors library was used to give greater readability to the server console. That is all !!!
 
-<H3>To update the project</H3>
+<H3>To clone project</H3>
+
+<b>git clone https://github.com/jorge751/node_api_patients.git</b>
+
+<H3>To update the project modules</H3>
 
 <b>npm install -g</b>
 
