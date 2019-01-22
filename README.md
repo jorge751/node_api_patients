@@ -28,5 +28,5 @@
 
 <H3>To compile with pkg</H3>
 
-<b>md exe</b></br>
+<b>md exe</b><br>
 <b>npm run comp</b>
