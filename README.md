@@ -1,5 +1,27 @@
 <H1>Api RESTfull for patient registration.</H1>
 
-<H4>Idea general</H4>
+<H3>Presentation</H3>
   
-  
+  Application that returns RESTful JSON using the least possible resources of node.js. For this we use mainly Express and Body-parser. In the case of body-parser it was necessary to take the body from the raw request. In this way we solve page coding problems since the data is not native UTF-8.
+  It was used as a Sqlite3 database and as an ORM Sequelize to simplify the manipulation of the data.
+The npmjs.com Colors library was used to give greater readability to the server console. That is all !!!
+
+<H3>To update the project</H3>
+
+<b>npm install -g</b>
+
+<H3>To migrate the database</H3>
+
+<b>sequelize db: migrate</b>
+
+<H3>To run in development</H3>
+
+<b>npm run dev</b>
+
+<H3>To run in production</H3>
+
+<b>npm start</b>
+
+<H3>To compile with pkg</H3>
+
+<b>npm run comp</b>
